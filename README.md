@@ -1,1 +1,3 @@
 # Titanic-Kaggle
+
+In this project the task was to analyse a set of data which included details about the passengers aboard the Titanic (such as Name, Age, Class and whether they survived or not) and use it to find out what type of passengers survived (in general) and predict the outcomes of a set of new passengers (in the test file). In order to solve the problem I first had to clean the data (fill in null values, encode categorical values, drop unnecessary columns etc.). For the model itself, currently a RandomForestClassifier is being used, with a mean error (between the real results and the predictions) of around 0.235. 
